@@ -1,0 +1,114 @@
+.bg-image {
+  background-image: url("./solo.jpg");
+  /* background-size: cover; */
+  background-size: 100% 100%;
+  /* object-fit: contain; */
+  /* margin: 30px; */
+  margin: 0px 30px;
+  padding: 20px;
+  /* width: 100%; */
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  position: sticky;
+  top: 0px;
+  /* margin: 0px; */
+  z-index: 1000;
+  align-items: center;
+  gap: 10px;
+  background-color: lightgreen;
+  margin: 0px 30px;
+}
+.header a {
+  color: blue;
+  text-decoration: none;
+  /* padding: -3rem; */
+}
+.header h1 {
+  padding-right: 40rem;
+  color: blue;
+}
+.main-section {
+  margin-left: 50px;
+}
+.main-section h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+}
+.main-section p {
+  color: white;
+}
+.main-section a {
+  display: inline-block;
+  color: blue;
+  background-color: lightgreen;
+  padding: 5px;
+  text-decoration: none;
+  transition: all ease 5s 2s;
+}
+.main-section a:hover {
+  transform: scale(1.5, 1.5);
+}
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+.card1,
+.card2,
+.card3 {
+  border: 2px solid white;
+  padding: 20px;
+  background-color: white;
+  transition: all 5s 2s;
+}
+.main-section1 {
+  background-color: lightslategray;
+  padding: 50px;
+  margin: 30px;
+  position: sticky;
+  /* position: absolute;
+  z-index: -1; */
+}
+.card1,
+.card2,
+.card3 .img {
+  text-align: center;
+}
+.card1:hover {
+  transform: scale(1.5, 1.5);
+  background-color: blue;
+}
+.card2:hover {
+  transform: scale(1.5, 1.5);
+  background-color: blue;
+}
+
+.card3:hover {
+  transform: scale(1.5, 1.5);
+  background-color: blue;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.container .col3 li {
+  list-style: none;
+}
+.col3 img {
+  padding: 10px;
+}
+.copyright {
+  text-align: center;
+}
+.footer {
+  background-color: lightsteelblue;
+  margin: 30px;
+  /* position: absolute;
+  z-index: -2;
+  left: 30rem; */
+}
